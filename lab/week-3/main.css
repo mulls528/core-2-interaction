@@ -74,4 +74,9 @@ blockquote{
     font-size: 15px;
     color: gray;
 }
-  
+.disclaimer{
+    font-family: 'Cheltenham Book';
+    text-align: center;
+    color: red;
+    margin-bottom: 10vh;
+ } 
