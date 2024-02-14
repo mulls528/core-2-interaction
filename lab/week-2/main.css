@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Cheltenham Book';
+    src: url('Cheltenham Book.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;}
+ @font-face {
+        font-family: 'Cheltenham Italic';
+        src: url('Cheltenham\ Italic.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;}
+ @font-face {
+            font-family: 'Cheltenham Light';
+            src: url('Cheltenham\ Light.ttf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;}
+.black-box {
+    background-color: black;
+    width: 900px; /* Adjust as needed */
+    height: 861px; /* Adjust as needed */
+    position: relative;
+    padding:0px;
+  } 
+  .white-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+h3{
+    font-family: 'Cheltenham Italic';
+    padding-top: 20px;
+    font-size:15px;
+}
+h1{
+font-size: 6vh;
+font-family: "Cheltenham Light";
+}
+h2{
+    font-size: 20px;
+    font-family: 'Cheltenham Light';
+}
+.image {
+    text-align: right; /* Aligns content to the right */
+    max-width:fit-content;
+  }
+.container{
+    display: flex;
+}
+.body-style{
+    padding-left: 60vh;
+    padding-right: 60vh;
+    padding-top: 20vh;
+    font-size: 20px;
+    font-family: 'Cheltenham Light';
+    line-height: 1.4;
+    padding-bottom: 80px;
+}
+blockquote{
+    font-family:'Cheltenham Italic';
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.img{
+    width: 71vh;
+    padding-top: 60px;
+    align-items: center;
+}
+.caption{
+    font-size: 15px;
+    color: gray;
+}
+  
