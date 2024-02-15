@@ -1,0 +1,74 @@
+body{
+    background-color: beige;
+}
+.circle{
+background: #f2ba16;
+display: inline-block;
+height: 100vh;
+width: 100vh;
+filter: blur(60%);
+border-radius: 50%;
+animation-name: move;
+animation-duration: 20s;
+animation-iteration-count: 10;
+position:absolute;
+box-shadow: 0 0 20vh 20vh #f2ba16;
+}
+.circle2{
+    background: #280ee6;
+    display: inline-block;
+    height: 100vh;
+    width: 100vh;
+    filter: blur(60%);
+    border-radius: 50%;
+    animation-name: move2;
+    animation-duration: 15s;
+    animation-iteration-count: 50;
+    position:absolute;
+    box-shadow: 0 0 20vh 20vh #280ee6;
+    }
+
+@keyframes move {
+    0% {
+        top: 0;
+        left: 0;
+      }
+      25% {
+        top: 0;
+        left: 20%;
+      }
+      50% {
+        top: 70%;
+        left: 30%;
+      }
+      75% {
+        top: 50%;
+        left: 0;
+      }
+      100% {
+        top: 0;
+        left: 0;
+      }
+    }
+    @keyframes move2 {
+        0% {
+            top: 0;
+            left: 10%;
+          }
+          25% {
+            top: 0;
+            left: 80%;
+          }
+          50% {
+            top: 20%;
+            left: 60%;
+          }
+          75% {
+            top: 30%;
+            left: 0;
+          }
+          100% {
+            top: 0;
+            left: 0;
+          }
+        }

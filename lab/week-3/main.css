@@ -18,7 +18,7 @@
             font-display: swap;}
 .black-box {
     background-color: black;
-    width: 900px; /* Adjust as needed */
+    width: 50%; /* Adjust as needed */
     height: 861px; /* Adjust as needed */
     position: relative;
     padding:0px;
@@ -45,7 +45,8 @@ h2{
 }
 .image {
     text-align: right; /* Aligns content to the right */
-    max-width:fit-content;
+    width: 50%;
+
   }
 .container{
     display: flex;
