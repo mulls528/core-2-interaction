@@ -1,3 +1,56 @@
-body{
-    color: red
+@font-face {
+    font-family: 'Cheltenham Book';
+    src: url('fonts/Cheltenham\ Book.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;}
+ @font-face {
+        font-family: 'Cheltenham Italic';
+        src: url('fonts/Cheltenham\ Italic.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;}
+ @font-face {
+            font-family: 'Cheltenham Light';
+            src: url('fonts/Cheltenham\ Light.ttf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;}
+            
+h1{
+
+    font-family: 'Cheltenham Light';
+    font-weight: lighter;
+    font-size: 20vh;
+    text-align: center;
+    padding-top: 20vh;
 }
+a:visited{
+    color: inherit;
+}
+a:hover{
+    color: blue;
+}
+body{
+    color: red;
+    font-size: 10vh;
+    font-family: 'Cheltenham Light';
+    padding: 5vh;
+}
+a{
+    text-decoration: none;
+}
+sup{
+    font-size: 6vh;
+}
+  .footer {
+    position: absolute;
+    top: 93%; /* Adjust as needed */
+    left: 50%; /* Centers the text horizontally */
+    transform: translate(-50%, -50%); /* Centers the text vertically */
+    font-size: 2vh;
+    font-family: 'Cheltenham Book'; 
+    text-align: center;
+  }
+  
+  
