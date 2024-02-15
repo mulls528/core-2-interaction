@@ -45,7 +45,7 @@ h2{
 }
 .image {
     text-align: right; /* Aligns content to the right */
-    width: 50%;
+    size: 20%;
 
   }
 .container{
@@ -67,7 +67,7 @@ blockquote{
     padding-bottom: 15px;
 }
 .img{
-    width: 71vh;
+    width: 80vh;
     padding-top: 60px;
     align-items: center;
 }
