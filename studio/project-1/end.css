@@ -19,45 +19,26 @@
  
 html{
     cursor: url(cursor-small.png), url(cursor-small-01.svg), auto;
-}           
-h1{
+} 
+#generateButton{
 
-    font-family: 'Cheltenham Light';
-    font-weight: lighter;
-    font-size: 20vh;
-    text-align: center;
-    padding-top: 20vh;
+        font-family: 'Cheltenham Light';
+        font-weight: lighter;
+        font-size: 15vh;
+        text-align: center;
+        color: red;
+        line-height: 12vh;
+        letter-spacing: -1px;
+        padding-top: 30vh;
+        user-select: none;
+
 }
-a:visited{
-    color: red;
-}
-a:hover{
-    color: blue;
-    cursor: url(cursor-small.png), auto;
-}
-body{
-    color: red;
-    font-size: 10vh;
-    font-family: 'Cheltenham Light';
-    padding: 5vh;
-    cursor: url(cursor-small.png), url(cursor-small-01.svg) auto;
-}
-a{
-    text-decoration: none;
-    color: red;
-}
-sup{
-    font-size: 6vh;
-}
-  .footer {
-    font-size: 2.5vh;
-    line-height: 3vh;
-    font-family: 'Cheltenham Book'; 
-    text-align: center;
-    cursor: url(cursor-small.png), url(cursor-small-01.svg) auto;
+.word {
     position: absolute;
-    bottom: 0;
-    width: 95%;
-  }
+    font-size: 20vh;
+    color: blue;
+    pointer-events: none;
+    font-family: 'Cheltenham Book';
+}
 
-  
+

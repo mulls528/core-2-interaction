@@ -1,3 +1,97 @@
-body{
-    background-color: bisque;
-}
+@font-face {
+    font-family: 'Cheltenham Book';
+    src: url('fonts/Cheltenham\ Book.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;}
+ @font-face {
+        font-family: 'Cheltenham Italic';
+        src: url('fonts/Cheltenham\ Italic.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;}
+ @font-face {
+            font-family: 'Cheltenham Light';
+            src: url('fonts/Cheltenham\ Light.ttf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;}
+ 
+            html{
+                cursor: url(cursor-small.png), auto;
+            }           
+            h1{
+            
+                font-family: 'Cheltenham Light';
+                font-weight: lighter;
+                font-size: 20vh;
+                text-align: center;
+                padding-top: 20vh;
+            }
+            a:visited{
+                color: red;
+            }
+            a:hover{
+                color: blue;
+                cursor: url(cursor-small.png), auto;
+            }
+            .body1{
+                color: red;
+                font-size: 10vh;
+                font-family: 'Cheltenham Light';
+                padding: 5vh;
+                cursor: url(cursor-small.png), auto;
+            }
+            .body2{
+                color: red;
+                font-size: 20vh;
+                font-family: 'Cheltenham Light';
+                padding: 1vh;
+                cursor: url(cursor-small.png), auto;
+            }
+            .body3{
+                color: red;
+                font-size: 3vh;
+                font-family: 'Cheltenham Light';
+                padding-top: 10vh;
+                padding-left: 25vw;
+                padding-right: 25vw;
+                padding-bottom: 10vh;
+                cursor: url(cursor-small.png), auto;
+            }
+
+            a{
+                text-decoration: none;
+            }
+            sup{
+                font-size: 6vh;
+            }
+              .footer {
+                font-size: 3vh;
+                font-family: 'Cheltenham Book'; 
+                cursor: url(cursor-small.png), auto;
+                color: red;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+              }
+            nav{
+                font-size: 3vh;
+                font-family: 'Cheltenham Book'; 
+                cursor: url(cursor-small.png), auto;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                color:red;
+              }
+              .border-box{
+                border: 2px solid red;
+                padding: 20px;
+              }
+              .invisible{
+                color: white;
+              }
+              .invisible:hover{
+                color:blue;
+            
+              }
