@@ -35,16 +35,16 @@ a:hover{
     color: blue;
     cursor: url(cursor-small.png), auto;
 }
+a{
+    text-decoration: none;
+    color: red;
+}   
 body{
     color: red;
     font-size: 10vh;
     font-family: 'Cheltenham Light';
     padding: 5vh;
     cursor: url(cursor-small.png), url(cursor-small-01.svg) auto;
-}
-a{
-    text-decoration: none;
-    color: red;
 }
 sup{
     font-size: 6vh;
