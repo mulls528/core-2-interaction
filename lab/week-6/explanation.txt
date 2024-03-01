@@ -1,0 +1,15 @@
+I decided to play with a grid layout as displaying items in a grid system (like an old catalogue) is soemthing I have been wanting to implement. I used the 12-column grid format as shown in the lecture, creating a new "grid" div whenever I wished to move to the next column. My title is aligned to the center and justified center, spanning all 12 columns. 
+
+In the next row, I have 3 blocks, the first spanning 6 columns, and the other two spanning 3 columns each. The text in the first block is default left-aligned with 10px padding. The far right block contains text that was centered using align-items: center; justify-content: center; display: flex; flex-direction: column;
+justify-content: space-around. 
+
+The next "section" is divded by a 12-column span of astrics. I got rid of the border for a brief moment. 
+The text following was default left-aligned with varying text treatments.
+
+Below this, are 2 sections spanning 6 columns. On the left, I have placed an image using display: flex and center alignment. To the direct right, I once again used display: flex and flex:direction column to stack my text and shape atop eachother. Additioannlly, these elements have been center-aligned and spaced evenly using space-around. 
+
+Questions:
+
+1. I'm still a bit fuzzy on the naming conventions used in the html file and how the css file would know the difference between "div class=column-2 under the first "div class=grid" or the "div class=column-2" under the second "div class=grid", but for now, I just tried to make sure all of my div classes were named something different so that I knew I was styling the correct "block" (wrong word) in css.
+
+2. Not understanding the role of "border" and "spacer" next to the names of the div classes.
