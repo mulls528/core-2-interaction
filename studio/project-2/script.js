@@ -1,20 +1,20 @@
 let collection = [
     {
         "id": "wnrs-note.png",
-        "front": "items/wnrs-note.png",
-        "back": "items/wnrs-note-back.png",
+        "front": "/items/wnrs-note.png",
+        "back": "/items/wnrs-note-back.png",
         "w": 3.5,
         "h": 4.5,
         "notes": "-",
         "image_text": "text",
         "material": "Copy paper, washi tape, magic tape",
         "when": "Aug 2022",
-        "print_hand": "hand"
+        "print_hand": "hand",
     },
     {
         "id": "icu-valentine.png",
-        "front": "items/https://mulls528.github.io/core-2-interaction/studio/project-2/items/icu-valentine.png",
-        "back": "items/icu-valentine-back.png",
+        "front": "/items/icu-valentine.png",
+        "back": "/items/icu-valentine-back.png",
         "w": 8,
         "h": 5.3,
         "notes": "-",
@@ -25,20 +25,21 @@ let collection = [
     },
     {
         "id": "pablo-matic.png",
-        "front": "items/pablo-matic.png",
-        "back": "items/pablo-matic-back.png",
+        "front": "/items/pablo-matic.png",
+        "back": "/items/pablo-matic-back.png",
         "w": 4,
         "h": 9.8,
         "notes": "-",
         "image_text": "text",
         "material": "printed cardstock",
         "when": "Sep 2023",
-        "print_hand": "print"
+        "print_hand": "print",
+        "large_image": true
     },
     {
         "id": "fit-guest-pass.png",
-        "front": "items/fit-guest-pass.png",
-        "back": "items/fit-guest-pass.png",
+        "front": "/items/fit-guest-pass.png",
+        "back": "/items/fit-guest-pass.png",
         "w": 3,
         "h": 2.4,
         "notes": "-",
@@ -49,8 +50,8 @@ let collection = [
     },
     {
         "id": "banana-bread.png",
-        "front": "items/banana-bread-message.png",
-        "back": "items/banana-bread-message-back.png",
+        "front": "/items/banana-bread-message.png",
+        "back": "/items/banana-bread-message-back.png",
         "w": 8.3,
         "h": 5.1,
         "notes": "torn",
@@ -61,8 +62,8 @@ let collection = [
     },
     {
         "id": "snl-coupon.png",
-        "front": "items/snl-coupon.png",
-        "back": "items/snl-coupon-back.png",
+        "front": "/items/snl-coupon.png",
+        "back": "/items/snl-coupon-back.png",
         "w": 5.9,
         "h": 7.3,
         "notes": "-",
@@ -73,8 +74,8 @@ let collection = [
     },
     {
         "id": "failed-stand-by.png",
-        "front": "items/failed-stand-by.png",
-        "back": "items/failed-stand-by-back.png",
+        "front": "/items/failed-stand-by.png",
+        "back": "/items/failed-stand-by-back.png",
         "w": 3.9,
         "h": 3,
         "notes": "-",
@@ -85,8 +86,8 @@ let collection = [
     },
     {
         "id": "almost-famous.png",
-        "front": "items/almost-famous.png",
-        "back": "items/almost-famous-back.png",
+        "front": "/items/almost-famous.png",
+        "back": "/items/almost-famous-back.png",
         "w": 5.5,
         "h": 2,
         "notes": "-",
@@ -97,8 +98,8 @@ let collection = [
     },
     {
         "id": "purple-letter.png",
-        "front": "items/purple-letter.png",
-        "back": "items/purple-letter-back.png",
+        "front": "/items/purple-letter.png",
+        "back": "/items/purple-letter-back.png",
         "w": 5.5,
         "h": 4.3,
         "notes": "-",
@@ -109,8 +110,8 @@ let collection = [
     },
     {
         "id": "tj-valentine.png",
-        "front": "items/tj-valentine.png",
-        "back": "items/tj-valentine-back.png",
+        "front": "/items/tj-valentine.png",
+        "back": "/items/tj-valentine-back.png",
         "w": 3,
         "h": 4.5,
         "notes": "FOLDED",
@@ -121,8 +122,8 @@ let collection = [
     },
     {
         "id": "staff-shoes.png",
-        "front": "items/staff-shoes.png",
-        "back": "items/staff-shoes.png",
+        "front": "/items/staff-shoes.png",
+        "back": "/items/staff-shoes.png",
         "w": 8.5,
         "h": 11,
         "notes": "-",
@@ -133,8 +134,8 @@ let collection = [
     },
     {
         "id": "be-a-neighbor.png",
-        "front": "items/be-a-neighbor.png",
-        "back": "items/be-a-neighbor-back.png",
+        "front": "/items/be-a-neighbor.png",
+        "back": "/items/be-a-neighbor-back.png",
         "w": 3,
         "h": 5,
         "notes": "-",
@@ -145,8 +146,8 @@ let collection = [
     },
     {
         "id": "renaissance.png",
-        "front": "items/renaissance.png",
-        "back": "items/renaissance-back.png",
+        "front": "/items/renaissance.png",
+        "back": "/items/renaissance-back.png",
         "w": 3,
         "h": 3.6,
         "notes": "-",
@@ -157,8 +158,8 @@ let collection = [
     },
     {
         "id": "gift-remnant.png",
-        "front": "items/gift-remnant.png",
-        "back": "items/gift-remnant-back.png",
+        "front": "/items/gift-remnant.png",
+        "back": "/items/gift-remnant-back.png",
         "w": 3,
         "h": 3,
         "notes": "-",
@@ -169,8 +170,8 @@ let collection = [
     },
     {
         "id": "moma.png",
-        "front": "items/moma.png",
-        "back": "items/moma-back.png",
+        "front": "/items/moma.png",
+        "back": "/items/moma-back.png",
         "w": 5.5,
         "h": 3.3,
         "notes": "-",
@@ -181,20 +182,20 @@ let collection = [
     },
     {
         "id": "bill-goes-here.png",
-        "front": "items/bill-goes-here.png",
-        "back": "items/bill-goes-here-back.png",
+        "front": "/items/bill-goes-here.png",
+        "back": "/items/bill-goes-here-back.png",
         "w": 6,
         "h": 4,
         "notes": "-",
         "image_text": "both",
         "material": "Heavyweight, matte",
-        "when": "Genuinely zero recollection",
+        "when": "-",
         "print_hand": "print"
     },
     {
-        "id": "summer-coffee-meeting.png",
-        "front": "items/summer-coffee-meeting.png",
-        "back": "items/summer-coffee-meeting-back.png",
+        "id": "sleeve.png",
+        "front": "/items/summer-coffee-meeting.png",
+        "back": "/items/summer-coffee-meeting-back.png",
         "w": 4.5,
         "h": 2.5,
         "notes": "FOLDED",
@@ -204,9 +205,9 @@ let collection = [
         "print_hand": "print"
     },
     {
-        "id": "the-sweet-east.png",
-        "front": "items/the-sweet-east.png",
-        "back": "items/the-sweet-east-back.png",
+        "id": "sweet-east.png",
+        "front": "/items/the-sweet-east.png",
+        "back": "/items/the-sweet-east-back.png",
         "w": 3,
         "h": 2,
         "notes": "-",
@@ -217,44 +218,47 @@ let collection = [
     },
     {
         "id": "met-no.1.png",
-        "front": "items/met-no.1.png",
-        "back": "items/met-no.1-back.png",
+        "front": "/items/met-no.1.png",
+        "back": "/items/met-no.1-back.png",
         "w": 2.4,
         "h": 5.8,
         "notes": "-",
         "image_text": "text",
         "material": "Sticker paper",
         "when": "Sep 2022",
-        "print_hand": "print"
+        "print_hand": "print",
+        "large_image": true
     },
     {
         "id": "met-no.2.png",
-        "front": "items/met-no.2.png",
-        "back": "items/met-no.2-back.png",
+        "front": "/items/met-no.2.png",
+        "back": "/items/met-no.2-back.png",
         "w": 2.4,
         "h": 5.8,
         "notes": "-",
         "image_text": "text",
         "material": "Sticker paper",
         "when": "Sep 2022",
-        "print_hand": "print"
+        "print_hand": "print",
+        "large_image": true
     },
     {
         "id": "met-no.3.png",
-        "front": "items/met-no.3.png",
-        "back": "items/met-no.3-back.png",
+        "front": "/items/met-no.3.png",
+        "back": "/items/met-no.3-back.png",
         "w": 2.4,
         "h": 5.8,
         "notes": "-",
         "image_text": "text",
         "material": "Sticker paper",
         "when": "Oct 2022",
-        "print_hand": "print"
+        "print_hand": "print",
+        "large_image": true
     },
     {
-        "id": "christmas-exhortation.png",
-        "front": "items/christmas-exhortation.png",
-        "back": "items/christmas-exhortation.png",
+        "id": "exhortation.png",
+        "front": "/items/christmas-exhortation.png",
+        "back": "/items/christmas-exhortation.png",
         "w": 8.5,
         "h": 11,
         "notes": "-",
@@ -264,21 +268,21 @@ let collection = [
         "print_hand": "hand"
     },
     {
-        "id": "business-card-reminder.png",
-        "front": "items/business-card-reminder.png",
-        "back": "items/business-card-reminder-back.png",
+        "id": "reminder.png",
+        "front": "/items/business-card-reminder.png",
+        "back": "/items/business-card-reminder-back.png",
         "w": 3.5,
         "h": 2,
         "notes": "-",
         "image_text": "text",
         "material": "Gloss heavyweight, washi tape",
-        "when": "No recollection",
+        "when": "-",
         "print_hand": "print"
     },
     {
-        "id": "isaac-correspondence.png",
-        "front": "items/isaac-correspondence.png",
-        "back": "items/isaac-correspondence-back.png",
+        "id": "correspondence.png",
+        "front": "/items/isaac-correspondence.png",
+        "back": "/items/isaac-correspondence-back.png",
         "w": 4.8,
         "h": 7.9,
         "notes": "-",
@@ -289,8 +293,8 @@ let collection = [
     },
     {
         "id": "museum-fiend.png",
-        "front": "items/museum-fiend.png",
-        "back": "items/museum-fiend-back.png",
+        "front": "/items/museum-fiend.png",
+        "back": "/items/museum-fiend-back.png",
         "w": 4.3,
         "h": 7.3,
         "notes": "-",
@@ -301,8 +305,8 @@ let collection = [
     },
     {
         "id": "film-photo.png",
-        "front": "items/film-photo.png",
-        "back": "items/film-photo-back.png",
+        "front": "/items/film-photo.png",
+        "back": "/items/film-photo-back.png",
         "w": 7,
         "h": 5,
         "notes": "-",
@@ -313,8 +317,8 @@ let collection = [
     },
     {
         "id": "communion.png",
-        "front": "items/communion.png",
-        "back": "items/communion-back.png",
+        "front": "/items/communion.png",
+        "back": "/items/communion-back.png",
         "w": 5,
         "h": 7.3,
         "notes": "-",
@@ -324,9 +328,9 @@ let collection = [
         "print_hand": "hand"
     },
     {
-        "id": "humble-ctl-sign.png",
-        "front": "items/humble-ctl-sign.png",
-        "back": "items/humble-ctl-sign.png",
+        "id": "ctl-sign.png",
+        "front": "/items/humble-ctl-sign.png",
+        "back": "/items/humble-ctl-sign.png",
         "w": 11,
         "h": 8.5,
         "notes": "-",
@@ -336,9 +340,9 @@ let collection = [
         "print_hand": "both"
     },
     {
-        "id": "ny-times-prophecy.png",
-        "front": "items/ny-times-prophecy.png",
-        "back": "items/ny-times-prophecy-back.png",
+        "id": "ny-times.png",
+        "front": "/items/ny-times-prophecy.png",
+        "back": "/items/ny-times-prophecy-back.png",
         "w": 4,
         "h": 5,
         "notes": "-",
@@ -349,8 +353,8 @@ let collection = [
     },
     {
         "id": "5-pound-note.png",
-        "front": "items/5-pound-note.png",
-        "back": "items/5-pound-note-back.png",
+        "front": "/items/5-pound-note.png",
+        "back": "/items/5-pound-note-back.png",
         "w": 5,
         "h": 2.5,
         "notes": "-",
@@ -361,8 +365,8 @@ let collection = [
     },
     {
         "id": "mud-postcard.png",
-        "front": "items/mud-postcard.png",
-        "back": "items/mud-postcard-back.png",
+        "front": "/items/mud-postcard.png",
+        "back": "/items/mud-postcard-back.png",
         "w": 6,
         "h": 4,
         "notes": "-",
@@ -373,8 +377,8 @@ let collection = [
     },
     {
         "id": "ch-solo.png",
-        "front": "items/ch-solo.png",
-        "back": "items/ch-solo-back.png",
+        "front": "/items/ch-solo.png",
+        "back": "/items/ch-solo-back.png",
         "w": 5.5,
         "h": 2.8,
         "notes": "-",
@@ -385,8 +389,8 @@ let collection = [
     },
     {
         "id": "nametag.png",
-        "front": "items/nametag.png",
-        "back": "items/nametag-back.png",
+        "front": "/items/nametag.png",
+        "back": "/items/nametag-back.png",
         "w": 1.8,
         "h": 2.3,
         "notes": "FOLDED",
@@ -397,8 +401,8 @@ let collection = [
     },
     {
         "id": "from-ella.png",
-        "front": "items/from-ella.png",
-        "back": "items/from-ella-back.png",
+        "front": "/items/from-ella.png",
+        "back": "/items/from-ella-back.png",
         "w": 4.5,
         "h": 6,
         "notes": "FOLDED",
@@ -409,8 +413,8 @@ let collection = [
     },
     {
         "id": "from-christella.png",
-        "front": "items/from-christella.png",
-        "back": "items/from-christella-back.png",
+        "front": "/items/from-christella.png",
+        "back": "/items/from-christella-back.png",
         "w": 8.5,
         "h": 11,
         "notes": "-",
@@ -421,8 +425,8 @@ let collection = [
     },
     {
         "id": "quick-note.png",
-        "front": "items/quick-note.png",
-        "back": "items/quick-note-back.png",
+        "front": "/items/quick-note.png",
+        "back": "/items/quick-note-back.png",
         "w": 3,
         "h": 3,
         "notes": "-",
@@ -432,9 +436,9 @@ let collection = [
         "print_hand": "hand"
     },
     {
-        "id": "meet-at-the-melody-tent.png",
-        "front": "items/meet-at-the-melody-tent.png",
-        "back": "items/meet-at-the-melody-tent-back.png",
+        "id": "melody-tent.png",
+        "front": "/items/meet-at-the-melody-tent.png",
+        "back": "/items/meet-at-the-melody-tent-back.png",
         "w": 5.5,
         "h": 2,
         "notes": "-",
@@ -444,9 +448,9 @@ let collection = [
         "print_hand": "print"
     },
     {
-        "id": "syri’s-“new”-gig.png",
-        "front": "items/syri’s-“new”-gig.png",
-        "back": "items/syri’s-“new”-gig-back.png",
+        "id": "syri’s-gig.png",
+        "front": "/items/syri’s-“new”-gig.png",
+        "back": "/items/syri’s-“new”-gig-back.png",
         "w": 3.3,
         "h": 1.8,
         "notes": "-",
@@ -457,8 +461,8 @@ let collection = [
     },
     {
         "id": "glitter-central.png",
-        "front": "items/glitter-central.png",
-        "back": "items/glitter-central-back.png",
+        "front": "/items/glitter-central.png",
+        "back": "/items/glitter-central-back.png",
         "w": 6.5,
         "h": 3.8,
         "notes": "-",
@@ -469,8 +473,8 @@ let collection = [
     },
     {
         "id": "from-haley.png",
-        "front": "items/from-haley.png",
-        "back": "items/from-haley-back.png",
+        "front": "/items/from-haley.png",
+        "back": "/items/from-haley-back.png",
         "w": 4.3,
         "h": 5.5,
         "notes": "-",
@@ -481,8 +485,8 @@ let collection = [
     },
     {
         "id": "cloisters-map.png",
-        "front": "items/cloisters-map.png",
-        "back": "items/cloisters-map-back.png",
+        "front": "/items/cloisters-map.png",
+        "back": "/items/cloisters-map-back.png",
         "w": 5.5,
         "h": 8.5,
         "notes": "-",
@@ -493,8 +497,8 @@ let collection = [
     },
     {
         "id": "sticker-tetris.png",
-        "front": "items/sticker-tetris.png",
-        "back": "items/sticker-tetris-back.png",
+        "front": "/items/sticker-tetris.png",
+        "back": "/items/sticker-tetris-back.png",
         "w": 6.5,
         "h": 3.5,
         "notes": "-",
@@ -504,9 +508,9 @@ let collection = [
         "print_hand": "both"
     },
     {
-        "id": "rational-interview-prep.png",
-        "front": "items/rational-interview-prep.png",
-        "back": "items/rational-interview-prep-back.png",
+        "id": "interview-prep.png",
+        "front": "/items/rational-interview-prep.png",
+        "back": "/items/rational-interview-prep-back.png",
         "w": 8.5,
         "h": 11,
         "notes": "DECONSTRUCTED",
@@ -516,9 +520,9 @@ let collection = [
         "print_hand": "hand"
     },
     {
-        "id": "christella-christmas.png",
-        "front": "items/christella-christmas.png",
-        "back": "items/christella-christmas-back.png",
+        "id": "christellamas.png",
+        "front": "/items/christella-christmas.png",
+        "back": "/items/christella-christmas-back.png",
         "w": 4,
         "h": 4.5,
         "notes": "FOLDED",
@@ -529,8 +533,8 @@ let collection = [
     },
     {
         "id": "ihop-x-citymd.png",
-        "front": "items/ihop-x-citymd.png",
-        "back": "items/ihop-x-citymd-back.png",
+        "front": "/items/ihop-x-citymd.png",
+        "back": "/items/ihop-x-citymd-back.png",
         "w": 4,
         "h": 6,
         "notes": "-",
@@ -540,9 +544,9 @@ let collection = [
         "print_hand": "both"
     },
     {
-        "id": "happy-coincidence.png",
-        "front": "items/happy-coincidence.png",
-        "back": "items/happy-coincidence-back.png",
+        "id": "coincidence.png",
+        "front": "/items/happy-coincidence.png",
+        "back": "/items/happy-coincidence-back.png",
         "w": 6.5,
         "h": 5.5,
         "notes": "-",
@@ -552,9 +556,9 @@ let collection = [
         "print_hand": "hand"
     },
     {
-        "id": "paolo-talks-photo.png",
-        "front": "items/paolo-talks-photo.png",
-        "back": "items/paolo-talks-photo-back.png",
+        "id": "paolo's-photos.png",
+        "front": "/items/paolo-talks-photo.png",
+        "back": "/items/paolo-talks-photo-back.png",
         "w": 4,
         "h": 6,
         "notes": "-",
@@ -564,9 +568,9 @@ let collection = [
         "print_hand": "print"
     },
     {
-        "id": "geographically-challenged.png",
-        "front": "items/geographically-challenged.png",
-        "back": "items/geographically-challenged-back.png",
+        "id": "geography?.png",
+        "front": "/items/geographically-challenged.png",
+        "back": "/items/geographically-challenged-back.png",
         "w": 8.5,
         "h": 11,
         "notes": "-",
@@ -576,9 +580,9 @@ let collection = [
         "print_hand": "hand"
     },
     {
-        "id": "don't-fw-rainbow-bagels.png",
-        "front": "items/don't-fw-rainbow-bagels.png",
-        "back": "items/don't-fw-rainbow-bagels-back.png",
+        "id": "classic.png",
+        "front": "/items/don't-fw-rainbow-bagels.png",
+        "back": "/items/don't-fw-rainbow-bagels-back.png",
         "w": 4.8,
         "h": 8.5,
         "notes": "-",
@@ -588,12 +592,12 @@ let collection = [
         "print_hand": "print"
     },
     {
-        "id": "more-isaac-correspondence.png",
-        "front": "items/more-isaac-correspondence.png",
-        "back": "items/more-isaac-correspondence-back.png",
+        "id": "correspondence.png",
+        "front": "/items/more-isaac-correspondence.png",
+        "back": "/items/more-isaac-correspondence-back.png",
         "w": 4.3,
         "h": 5.5,
-        "notes": "FOLDED, CARD ONLY",
+        "notes": "FOLDED",
         "image_text": "both",
         "material": "Heavyweight, photo paper",
         "when": "Mar 2023",
@@ -601,8 +605,8 @@ let collection = [
     },
     {
         "id": "aftercare-zine.png",
-        "front": "items/aftercare-zine.png",
-        "back": "items/aftercare-zine-back.png",
+        "front": "/items/aftercare-zine.png",
+        "back": "/items/aftercare-zine-back.png",
         "w": 2.8,
         "h": 3.8,
         "notes": "-",
@@ -613,8 +617,8 @@ let collection = [
     },
     {
         "id": "from-connor.png",
-        "front": "items/from-connor.png",
-        "back": "items/from-connor-back.png",
+        "front": "/items/from-connor.png",
+        "back": "/items/from-connor-back.png",
         "w": 7,
         "h": 5.5,
         "notes": "-",
@@ -625,8 +629,8 @@ let collection = [
     },
     {
         "id": "from-Jane.png",
-        "front": "items/from-Jane.png",
-        "back": "items/from-Jane-back.png",
+        "front": "/items/from-Jane.png",
+        "back": "/items/from-Jane-back.png",
         "w": 5.5,
         "h": 4.3,
         "notes": "-",
@@ -637,8 +641,8 @@ let collection = [
     },
     {
         "id": "from-hud.png",
-        "front": "items/from-hud.png",
-        "back": "items/from-hud-back.png",
+        "front": "/items/from-hud.png",
+        "back": "/items/from-hud-back.png",
         "w": 5.5,
         "h": 3.5,
         "notes": "-",
@@ -649,8 +653,8 @@ let collection = [
     },
     {
         "id": "from-tori.png",
-        "front": "items/from-tori.png",
-        "back": "items/from-tori-back.png",
+        "front": "/items/from-tori.png",
+        "back": "/items/from-tori-back.png",
         "w": 4.3,
         "h": 5.3,
         "notes": "-",
@@ -661,8 +665,8 @@ let collection = [
     },
     {
         "id": "the-accident.png",
-        "front": "items/the-accident.png",
-        "back": "items/the-accident-back.png",
+        "front": "/items/the-accident.png",
+        "back": "/items/the-accident-back.png",
         "w": 8.5,
         "h": 11,
         "notes": "-",
@@ -672,9 +676,9 @@ let collection = [
         "print_hand": "print"
     },
     {
-        "id": "british-chocolate.png",
-        "front": "items/british-chocolate.png",
-        "back": "items/british-chocolate-back.png",
+        "id": "brit-chocolate.png",
+        "front": "/items/british-chocolate.png",
+        "back": "/items/british-chocolate-back.png",
         "w": 9.3,
         "h": 8,
         "notes": "-",
@@ -685,8 +689,8 @@ let collection = [
     },
     {
         "id": "ayo-edebiri.png",
-        "front": "items/ayo-edebiri.png",
-        "back": "items/ayo-edebiri-back.png",
+        "front": "/items/ayo-edebiri.png",
+        "back": "/items/ayo-edebiri-back.png",
         "w": 7.5,
         "h": 1,
         "notes": "-",
@@ -696,9 +700,9 @@ let collection = [
         "print_hand": "print"
     },
     {
-        "id": "pulled-some-strings.png",
-        "front": "items/pulled-some-strings-front.png",
-        "back": "items/pulled-some-strings-back.png",
+        "id": "pulled-strings.png",
+        "front": "/items/pulled-some-strings-front.png",
+        "back": "/items/pulled-some-strings-back.png",
         "w": 7.5,
         "h": 1,
         "notes": "-",
@@ -709,8 +713,8 @@ let collection = [
     },
     {
         "id": "comedians-need-designers.png",
-        "front": "items/comedians-need-designers.png",
-        "back": "items/comedians-need-designers.png",
+        "front": "/items/comedians-need-designers.png",
+        "back": "/items/comedians-need-designers.png",
         "w": 5.5,
         "h": 8.5,
         "notes": "-",
@@ -721,8 +725,8 @@ let collection = [
     },
     {
         "id": "hotel-water.png",
-        "front": "items/hotel-water.png",
-        "back": "items/hotel-water.png",
+        "front": "/items/hotel-water.png",
+        "back": "/items/hotel-water.png",
         "w": 7.8,
         "h": 2.5,
         "notes": "torn",
@@ -733,8 +737,8 @@ let collection = [
     },
     {
         "id": "orphan-pants.png",
-        "front": "items/orphan-pants.png",
-        "back": "items/orphan-pants-back.png",
+        "front": "/items/orphan-pants.png",
+        "back": "/items/orphan-pants-back.png",
         "w": 3.2,
         "h": 6.3,
         "notes": "-",
@@ -745,8 +749,8 @@ let collection = [
     },
     {
         "id": "mail-by-sticker.png",
-        "front": "items/mail-by-sticker.png",
-        "back": "items/mail-by-sticker-back.png",
+        "front": "/items/mail-by-sticker.png",
+        "back": "/items/mail-by-sticker-back.png",
         "w": 5.4,
         "h": 4,
         "notes": "ENVELOPE ONLY",
@@ -757,8 +761,8 @@ let collection = [
     },
     {
         "id": "camp-knapp.png",
-        "front": "items/camp-knapp.png",
-        "back": "items/camp-knapp-back.png",
+        "front": "/items/camp-knapp.png",
+        "back": "/items/camp-knapp-back.png",
         "w": 8.5,
         "h": 11,
         "notes": "-",
@@ -769,8 +773,8 @@ let collection = [
     },
     {
         "id": "tsa-pre.png",
-        "front": "items/tsa-pre.png",
-        "back": "items/tsa-pre.png",
+        "front": "/items/tsa-pre.png",
+        "back": "/items/tsa-pre.png",
         "w": 7.5,
         "h": 3,
         "notes": "-",
@@ -781,8 +785,8 @@ let collection = [
     },
     {
         "id": "ch-solo.png",
-        "front": "items/ch-solo.png",
-        "back": "items/ch-solo-back.png",
+        "front": "/items/ch-solo.png",
+        "back": "/items/ch-solo-back.png",
         "w": 5.6,
         "h": 3.8,
         "notes": "-",
@@ -803,6 +807,11 @@ for (let i = 0; i < collection.length; i++) { // for each item until the full le
     frontImage.src = collection[i].front;
     frontImage.dataset.front = collection[i].front;
     frontImage.dataset.backSrc = collection[i].back;
+
+    if (item.large_image === true) {
+        frontImage.dataset.largeImage = true;
+    }
+
     frontImage.addEventListener('mouseover', swapSource(frontImage));
 
     container.appendChild(frontImage);
