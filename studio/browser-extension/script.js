@@ -1,1 +1,3 @@
-console.log("TEST");
+let allText = document.querySelectorAll("*");
+
+console.log("altText")
