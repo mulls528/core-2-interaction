@@ -1,0 +1,60 @@
+@font-face {
+        font-family: 'Alfabet Black';
+        src: url('Alfabet/Alfabet\ Black.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;}
+@font-face {
+        font-family: 'Alfabet Black Italic';
+        src: url('Alfabet/Alfabet\ Black\ Italic.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;}        
+@font-face {
+        font-family: 'Alfabet Bold';
+        src: url('Alfabet/Alfabet\ Bold.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;}
+@font-face {
+        font-family: 'Alfabet Bold Italic';
+        src: url('Alfabet/Alfabet\ Bold\ Italic.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;} 
+@font-face {
+        font-family: 'Alfabet Regular';
+        src: url('Alfabet/Alfabet\ Regular.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;}
+@font-face {
+        font-family: 'Alfabet Regular Italic';
+        src: url('Alfabet/Alfabet\ Regular\ Italic.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;}                       
+
+/*for mobile*/        
+ @media only screen and (max-width: 767px) {
+        .mobile-display {
+        font-size: 12px;
+        width: 100%;
+        margin: 0;
+        }
+        .desktop-display {
+                display: none;
+                }
+        }
+/*for desktop*/        
+@media only screen and (min-width: 767px) {
+        .desktop-display {
+        font-size: 16px;
+        width: 80%;
+        margin: auto;
+        }
+        .mobile-display {
+                display:none;
+                }
+        }      
+
