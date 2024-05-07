@@ -33,28 +33,391 @@
         src: url('Alfabet/Alfabet\ Regular\ Italic.otf') format('opentype');
         font-weight: normal;
         font-style: normal;
-        font-display: swap;}                       
+        font-display: swap;} 
+        @font-face {
+                font-family: 'Cheltenham Light';
+                src: url('Cheltenham\ Light.ttf') format('opentype');
+                font-weight: normal;
+                font-style: normal;
+                font-display: swap;}                      
 
 /*for mobile*/        
- @media only screen and (max-width: 767px) {
-        .mobile-display {
-        font-size: 12px;
-        width: 100%;
-        margin: 0;
+ @media only screen and (max-width: 1400px) {
+        .header{
+                padding: 1.5rem;
         }
-        .desktop-display {
-                display: none;
-                }
+        .dates, .location{
+                font-size: 3.5rem;
+                line-height: 3rem;
+                padding-left: 15px;
+        }
+        .location{
+                padding-top: 5rem;
+        }
+        .caviat{
+                padding-top: 1rem;
+                font-size: 2rem;
+                line-height: 1.8rem; 
+                padding-left: 15px;
+        }
+        .NEWYORK, .C2OMEDY, .FESTIVAL{
+                font-family: 'Alfabet Black';
+                font-size: 11rem;
+                width: 100%;
+                line-height: 9.5rem;
+                display: flex;
+        }
+        #OMEDY {
+                background-color: rgb(0, 0, 0);
+                transform:translateX(-6rem);
+        }
+        .arrow{
+                width: 10rem;
+                align-items: center;
+                justify-content: center;
+                padding: 1rem;
+                transition: transform 0.3s ease-in-out;
+        }
         }
 /*for desktop*/        
-@media only screen and (min-width: 767px) {
-        .desktop-display {
-        font-size: 16px;
-        width: 80%;
-        margin: auto;
+@media only screen and (min-width: 1400px) {
+        .header{
+                padding: 3rem;
         }
-        .mobile-display {
-                display:none;
-                }
-        }      
+        .dates, .location{
+                font-size: 4.5rem;
+                line-height: 4rem;
+        }
+        .location{
+                padding-top: 7rem;
+                padding-bottom: 2rem;
+        }
+        .caviat{
+                font-size: 1.5rem;
+                line-height: 1.4rem;
+        }
+        .NEWYORK, .C2OMEDY, .FESTIVAL{
+                font-family: 'Alfabet Black';
+                font-size: 12rem;
+                width: 100%;
+                line-height: 10rem;
+                display: flex;
+        }
+        #OMEDY {
+                background-color: rgb(0, 0, 0);
+                transform:translateX(-8rem);
+        }
+        .arrow{
+                width: 20rem;
+                align-items: center;
+                justify-content: center;
+                padding: 1rem;
+                transition: transform 0.3s ease-in-out;
+        }
+        } 
+html{
+        margin: 0;
+        cursor: url('cursor-01.png'),auto;
+} 
 
+body{
+        margin: 0;
+}
+.marquee__three {
+        display: flex;
+        overflow: hidden;
+        height: 3vh;
+        user-select: none;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border: 2px solid black; 
+      }
+      
+      .marquee--hover-pause:hover .marquee__group__three {
+        animation-play-state: paused;
+      }
+      
+      .marquee__group__three {
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-between;
+        gap: .1rem;
+        min-width: 100%;
+        animation: scroll 30s linear infinite reverse; 
+      }
+
+      .marquee__group__three, .marquee__three{
+        font-family: 'Alfabet Bold';
+        font-size: 1.2rem;
+      }
+      #name{
+        padding-left: 1rem;
+        color: black;
+      }
+    
+    #name:hover {
+        font-family: 'Alfabet Bold Italic';
+        text-decoration: underline 2px black;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+          
+      @keyframes scroll {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(calc(-100% - .1rem));
+        }
+      }
+.section-1{
+        height: 100vh;
+        background-color: black;
+}
+.header{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+}
+.title{
+        display: inline-block;
+}
+.title-container{
+        align-items: center;
+        justify-content: center;
+        float: left;
+        width: 80%;
+}
+
+.subheader{
+        font-family: 'Alfabet Regular';
+        padding-top: .8rem;
+        width: 23%;
+}
+
+.arrow-container{
+        background-color: black;
+        align-items: center;
+        justify-content: center;
+        padding-left: 3rem;
+}
+.arrow:hover{
+border: 3px solid white;
+}
+
+*{
+        margin: 0;
+        padding: 0;
+}
+.menu{
+        font-family: 'Alfabet Bold';
+        font-size: 2rem;
+        background-color: white;
+        position: sticky;
+}
+.sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+nav ul{
+      width: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;  
+}
+nav li{
+        height: 6rem;
+}
+nav a{
+        height: 100%;
+        padding: 0 30px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        transition: top ease .5s;
+}
+nav li:nth-child(2):hover{
+color: blue;
+}
+nav li:nth-child(3):hover{
+        color: #01E200;
+        }
+nav li:nth-child(4):hover{
+color: #FF8C07;
+} 
+nav li:nth-child(5):hover{
+        color: #E7E200;
+        }       
+nav li:first-child{
+        margin-right: auto;
+}
+.h1-container{
+        border: 3px solid black;
+        padding-left: 2rem;
+}
+p2{
+        font-family: 'Alfabet';
+        font-size: 2rem;
+}
+.opener{
+        margin: 5rem;
+        margin-left: 6rem;
+        margin-right: 6rem;
+}
+#strike-out{
+        text-decoration: line-through;
+}
+h1{
+        font-family: 'Alfabet Black';
+        font-size: 8rem;
+}
+.content{
+        display: flex;
+}
+#caroline{
+        border: 3px solid black;
+        margin-top: -3px;
+        margin-bottom: -3px;
+}
+.content{
+        display: flex;
+        flex-direction: row;
+}
+.quote{
+        font-family: 'Cheltenham Light';
+        font-size: 5rem;
+        line-height: 4.8rem;
+        padding: 1rem;
+        width: 60%;
+}
+#caroline{
+        width: 40vw;
+}
+
+.container {
+        max-width: 100%;
+        margin-inline: auto;
+}
+.grid{
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+}
+.card1 {
+        object-fit: contain;
+        justify-content: space-between;
+        background-image: url(check-1.svg);
+        background-repeat: no-repeat;
+}
+.card1:hover {
+        transform: translate(-20px, 20px);
+        -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.card2 {
+        object-fit: contain;
+        justify-content: space-between;
+        background-image: url(check-2.svg);
+        background-repeat: no-repeat;
+}
+.card2:hover {
+        transform: translate(-20px, 20px);
+        -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#photo {
+        object-fit: contain;
+        max-width: 100%;
+        justify-content: space-between;
+}
+#photo:hover {
+        transform: translate(20px, -20px);
+        -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.card-title {
+        font-family: 'Alfabet Bold';
+        font-size: 4rem;
+        line-height: 3.5rem;
+        padding-left: 1rem;
+        padding-right: .5rem; 
+}
+.venue{
+        font-family: 'Alfabet Bold Italic';
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+}
+.tickets{
+        font-family: 'Alfabet Bold';
+        font-size: 2rem;
+        background: black;
+        color: white;
+        padding: 1rem;
+        margin: 1rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        text-align: center;
+}
+.tickets:hover{
+        border: 3px solid black;
+        background: white;
+        color: black;
+}
+.icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 300px;
+        margin: 1rem;
+}
+.icons img{
+        padding: 5px;
+}
+        
+.icon-box {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+    
+            img {
+                width: 2em;
+            }
+        }
+/*.menu{
+        font-family:'Alfabet Regular';
+        color: white;
+        font-size: 5rem;
+        align-items: center;
+        justify-content: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+}*/
+
+.about, .line-up, .press, .another-thing{
+        text-align: center;
+}      
+
+.about:hover{
+        background-color: rgb(5, 81, 250);
+        color: black;
+}
+.line-up:hover{
+        background-color: rgb(231, 236, 0);
+        color: black
+}
+.press:hover{
+        background-color: rgb(1, 226, 0);
+        color: black;
+}
+.another-thing:hover{
+        background-color: rgb(255, 140, 7);
+        color: black;
+}
