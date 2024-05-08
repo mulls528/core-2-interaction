@@ -42,7 +42,7 @@
                 font-display: swap;}                      
 
 /*for mobile*/        
- @media only screen and (max-width: 1400px) {
+ @media only screen and (max-width: 1441px) {
         .header{
                 padding: 1.5rem;
         }
@@ -78,9 +78,13 @@
                 padding: 1rem;
                 transition: transform 0.3s ease-in-out;
         }
+        h1{
+                font-family: 'Alfabet Black';
+                font-size: 7rem;
+        }
         }
 /*for desktop*/        
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1441px) {
         .header{
                 padding: 3rem;
         }
@@ -114,14 +118,19 @@
                 padding: 1rem;
                 transition: transform 0.3s ease-in-out;
         }
+        h1{
+                font-family: 'Alfabet Black';
+                font-size: 8rem;
+        }
         } 
 html{
         margin: 0;
-        cursor: url('cursor-01.png'),auto;
+        cursor: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='Layer_1' height='32px' width='32px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1125 1125'%3E%3Cpath d='m194.49,452.63C280.05,384.29,723.81,12.79,723.81,12.79c0,0,172.47,556.67,206.7,656.44l-530.4,443.51L194.49,452.63Z'/%3E%3C/svg%3E");
 } 
 
 body{
         margin: 0;
+        cursor: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='Layer_1' height='32px' width='32px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1125 1125'%3E%3Cpath d='m194.49,452.63C280.05,384.29,723.81,12.79,723.81,12.79c0,0,172.47,556.67,206.7,656.44l-530.4,443.51L194.49,452.63Z'/%3E%3C/svg%3E");
 }
 .marquee__three {
         display: flex;
@@ -269,13 +278,7 @@ p2{
         margin-left: 6rem;
         margin-right: 6rem;
 }
-#strike-out{
-        text-decoration: line-through;
-}
-h1{
-        font-family: 'Alfabet Black';
-        font-size: 8rem;
-}
+
 .content{
         display: flex;
 }
@@ -298,7 +301,9 @@ h1{
 #caroline{
         width: 40vw;
 }
-
+.white-box{
+        padding: 50px;
+}
 .container {
         max-width: 100%;
         margin-inline: auto;
