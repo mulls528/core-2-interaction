@@ -473,13 +473,13 @@ p3{
 }
 
 #abc{
-        padding-left: 10rem;
+        padding-left: 8rem;
 }
 #iheart{
-        padding-left: 5rem;
+        padding-left: 3rem;
 }
 #newyork{
-        padding-left: 15rem;
+        padding-left: 12rem;
 }
 .footer{
         display: flex;
@@ -487,7 +487,7 @@ p3{
 }
 h2{
         font-family: 'Alfabet Black';
-        font-size: 5rem;
+        font-size: 4rem;
         line-height: 4.2rem;
 }
 h3{
