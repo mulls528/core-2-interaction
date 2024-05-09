@@ -1,3 +1,40 @@
+var theThing = document.querySelector("#thing");
+var animationDuration = 3000; 
+var delayBetweenAnimations = 60000; 
+var speedX = 5; 
+var speedY = 3; 
+
+function moveThing() {
+  var startTime = Date.now();
+
+  function animate() {
+    var elapsed = Date.now() - startTime;
+
+    
+    var posX = (elapsed / animationDuration) * window.innerWidth;
+    var posY = (elapsed / animationDuration) * window.innerHeight;
+
+    theThing.style.left = posX + "px";
+    theThing.style.top = posY + "px";
+
+    
+    if (elapsed >= animationDuration) {
+      cancelAnimationFrame(animationFrame);
+      setTimeout(function() {
+        moveThing();
+      }, delayBetweenAnimations);
+    } else {
+      var animationFrame = requestAnimationFrame(animate);
+    }
+  }
+
+  animate();
+}
+
+moveThing();
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
     // Array of 4 different colors
     var colors = ['#FF5733', '#33FF57', '#5733FF', '#FF33E9'];
@@ -36,16 +73,16 @@ document.querySelectorAll('a[href^="#"]'). forEach(anchor => {
         })
     })
 })
-// When the user scrolls the page, execute myFunction
+
 window.onscroll = function() {myFunction()};
 
-// Get the navbar
+
 var navbar = document.getElementById("menu");
 
-// Get the offset position of the navbar
+
 var sticky = navbar.offsetTop;
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
@@ -53,3 +90,4 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+

@@ -70,6 +70,7 @@
         #OMEDY {
                 background-color: rgb(0, 0, 0);
                 transform:translateX(-8rem);
+                z-index: 40;
         }
         .arrow{
                 width: 10rem;
@@ -110,6 +111,7 @@
         #OMEDY {
                 background-color: rgb(0, 0, 0);
                 transform:translateX(-8rem);
+                z-index: 40;
         }
         .arrow{
                 width: 20rem;
@@ -129,6 +131,24 @@ html{
 
 body{
         margin: 0;
+}
+#contentContainer{
+        width: 100%;
+        height: 100%;
+        position: sticky;
+        overflow: hidden;
+        z-index: 200;
+}
+#thing{
+        position: relative;
+        top: 40%;
+        width: auto;
+        z-index: 200;
+    height: auto;
+    left: -100%;
+    max-width: 30vw;
+    pointer-events: none;
+    position: fixed;
 }
 .section-a, .section-1{
         cursor: url('blue-diamond.png'), url('blue-diamond.svg'), auto;
@@ -332,33 +352,59 @@ p2{
 .img-caroline a{
         cursor: url('green-diamond.png'), auto;
 }
-p3{
-        font-family: 'Alfabet Bold';
-        font-size: 3.7rem;
+p3:hover{
+        color: #01E200;
 }
-#another-img{
-        border: 3px solid black;
-        margin-top: -3px;
-        margin-bottom: -3px;
-        width: 50%;
+.carolines-sign-container{
+        object-fit: cover;
         cursor: url('green-diamond.png'), auto;
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
 }
-.content, .more-content{
+.carolines-sign-container img{
+        border: 3px solid black;
+        display: block;
+        width:100%
+}
+.content{
         display: flex;
         flex-direction: row;
         cursor: url('green-diamond.png'), auto;
 }
-.quote, .more-from-me {
+.more-content{
+        cursor: url('green-diamond.png'), auto;
+}
+.content {
+        padding-top: 1rem;
+}
+.quote, .more-from-me, p3 {
         font-family: 'Cheltenham Light';
         font-size: 3.5rem;
         line-height: 3.8rem;
-        padding: 1rem;
         cursor: url('green-diamond.png'), auto;
 
 }
-.white-box{
+.more-from-me{
+        padding: 1rem;
+}
+.quote {
+        padding: 1rem;
+}
+.white-box1, .white-box2, .white-box3, .white-box4{
         padding: 65px;
+}
+.white-box1{
         cursor: url('blue-diamond.png'), auto;
+}
+.white-box2{
+        cursor: url('blue-diamond.png'), auto;
+}
+.white-box3{
+        cursor: url('green-diamond.png'), auto;
+}
+.white-box4{
+        cursor: url('yellow-diamond.png'), auto;
 }
 .container {
         max-width: 100%;
