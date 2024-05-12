@@ -124,23 +124,14 @@
                 font-family: 'Alfabet Black';
                 font-size: 8rem;
         }
-        } 
-html{
-        margin: 0;
-} 
-
-body{
-        margin: 0;
-}
+        }             
 #contentContainer{
         width: 100%;
-        height: 100%;
-        position: sticky;
         overflow: hidden;
         z-index: 200;
 }
 #thing{
-        position: relative;
+        position: fixed;
         top: 40%;
         width: auto;
         z-index: 200;
@@ -148,10 +139,7 @@ body{
     left: -100%;
     max-width: 30vw;
     pointer-events: none;
-    position: fixed;
-}
-.section-a, .section-1{
-        cursor: url('blue-diamond.png'), url('blue-diamond.svg'), auto;
+    pointer-events: none;
 }
 .marquee__three {
         display: flex;
@@ -161,43 +149,37 @@ body{
         padding-top: 1rem;
         padding-bottom: 1rem;
         border: 2px solid black; 
-        cursor: url('blue-diamond.png'), url('blue-diamond.svg'), auto;
+
       }
       
       .marquee--hover-pause:hover .marquee__group__three {
         animation-play-state: paused;
-        cursor: url('blue-diamond.png'), auto;
       }
       
       .marquee__group__three {
         flex-shrink: 0;
         display: flex;
         justify-content: space-between;
-        gap: .1rem;
+        gap: .5rem;
         min-width: 100%;
         animation: scroll 30s linear infinite reverse; 
-        cursor: url('blue-diamond.png'), auto;
       }
 
       .marquee__group__three, .marquee__three{
         font-family: 'Alfabet Bold';
         font-size: 1.2rem;
-        cursor: url('blue-diamond.png'), auto;
+
       }
       #name{
-        padding-left: 1rem;
+        padding-left: 1.8rem;
         color: black;
-        cursor: url('blue-diamond.png'), auto;
-      }
 
-      #name a{
-        cursor: url('blue-diamond.png'), auto;
       }
     
     #name:hover {
         font-family: 'Alfabet Bold Italic';
         color: blue;
-        cursor: url('blue-diamond.png'), auto;
+
     }
     a{
         text-decoration: none;
@@ -207,17 +189,16 @@ body{
       @keyframes scroll {
         from {
           transform: translateX(0);
-          cursor: url('blue-diamond.png'), auto;
         }
         to {
           transform: translateX(calc(-100% - .1rem));
-          cursor: url('blue-diamond.png'), auto;
+
         }
       }
 .section-1{
         height: 100vh;
         background-color: black;
-        cursor: url('blue-diamond.png'), auto;
+
         
 }
 .header{
@@ -225,25 +206,25 @@ body{
         display: flex;
         justify-content: space-between;
         color: white;
-        cursor: url('blue-diamond.png'), url('blue-diamond.svg'), auto;
+        
 }
 .title{
         display: inline-block;
-        cursor: url('blue-diamond.png'), auto;
+       
 }
 .title-container{
         align-items: center;
         justify-content: center;
         float: left;
         width: 80%;
-        cursor: url('blue-diamond.png'), auto;
+        
 }
 
 .subheader{
         font-family: 'Alfabet Regular';
         padding-top: .8rem;
         width: 23%;
-        cursor: url('blue-diamond.png'), auto;
+       
 }
 
 .arrow-container{
@@ -251,11 +232,11 @@ body{
         align-items: center;
         justify-content: center;
         padding-left: 3rem;
-        cursor: url('blue-diamond.png'), auto;
+       
 }
 .arrow:hover{
 border: 3px solid white;
-cursor: url('blue-diamond.png'), auto;
+
 }
 
 *{
@@ -267,14 +248,14 @@ cursor: url('blue-diamond.png'), auto;
         font-size: 2rem;
         background-color: white;
         position: sticky;
-        cursor: url('blue-diamond.png'), url('blue-diamond.svg'), auto;
+
 }
 .sticky {
         position: fixed;
         top: 0;
         width: 100%;
         z-index: 60;
-        cursor: url('blue-diamond.png'), url('blue-diamond.svg'), auto;
+
       }
 nav ul{
       width: 100%;
@@ -282,11 +263,10 @@ nav ul{
       display: flex;
       justify-content: flex-end;
       align-items: center;  
-      cursor: url('blue-diamond.png'), url('blue-diamond.svg'), auto;
+    
 }
 nav li{
         height: 6rem;
-        cursor: url('blue-diamond.png'), url('blue-diamond.svg'), auto;
 }
 nav a{
         height: 100%;
@@ -295,7 +275,6 @@ nav a{
         display: flex;
         align-items: center;
         transition: top ease .5s;
-        cursor: url('blue-diamond.png'), url('blue-diamond.svg'), auto;
 }
 nav li:nth-child(2):hover{
 color: blue;
@@ -312,24 +291,22 @@ nav li:nth-child(5):hover{
 nav li:first-child{
         margin-right: auto;
 }
-#nojoke{
-        cursor: url('blue-diamond.png'), auto;
-}
+
 .h1-container{
         border: 3px solid black;
         padding-left: 2rem;
-        cursor: url('blue-diamond.png'), auto;
+      
 }
 p2{
         font-family: 'Alfabet';
         font-size: 2rem;
-        cursor: url('blue-diamond.png'), auto;
+     
 }
 .opener{
         margin: 5rem;
         margin-left: 6rem;
         margin-right: 6rem;
-        cursor: url('blue-diamond.png'), auto;
+     
 }
 .disclaimer {
         font-family: 'Alfabet regular';
@@ -340,7 +317,7 @@ p2{
         text-align: center;
         justify-content: center;
         display: flex;
-        cursor: url('blue-diamond.png'), auto;
+      
 }
 
 #caroline{
@@ -349,15 +326,12 @@ p2{
         margin-bottom: -3px;
         width: 40vw;
 }
-.img-caroline a{
-        cursor: url('green-diamond.png'), auto;
-}
+
 p3:hover{
         color: #01E200;
 }
 .carolines-sign-container{
         object-fit: cover;
-        cursor: url('green-diamond.png'), auto;
         width: 100%;
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -370,11 +344,9 @@ p3:hover{
 .content{
         display: flex;
         flex-direction: row;
-        cursor: url('green-diamond.png'), auto;
+   
 }
-.more-content{
-        cursor: url('green-diamond.png'), auto;
-}
+
 .content {
         padding-top: 1rem;
 }
@@ -382,7 +354,6 @@ p3:hover{
         font-family: 'Cheltenham Light';
         font-size: 3.5rem;
         line-height: 3.8rem;
-        cursor: url('green-diamond.png'), auto;
 
 }
 .more-from-me{
@@ -394,22 +365,11 @@ p3:hover{
 .white-box1, .white-box2, .white-box3, .white-box4{
         padding: 65px;
 }
-.white-box1{
-        cursor: url('blue-diamond.png'), auto;
-}
-.white-box2{
-        cursor: url('blue-diamond.png'), auto;
-}
-.white-box3{
-        cursor: url('green-diamond.png'), auto;
-}
-.white-box4{
-        cursor: url('yellow-diamond.png'), auto;
-}
+
 .container {
         max-width: 100%;
         margin-inline: auto;
-        cursor: url('yellow-diamond.png'), auto;
+      
 }
 .grid{
         padding: 2rem;
@@ -430,7 +390,7 @@ p3:hover{
         transform: translate(-20px, 20px);
         -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  cursor: url('yellow-diamond.png'), auto;
+
 
 }
 .card2 {
@@ -441,16 +401,13 @@ p3:hover{
         background-repeat: no-repeat;
         -webkit-transition: all 0.5s ease;
         transition: all 0.5s ease;
-        cursor: url('yellow-diamond.png'), auto;
+
 }
 .card2:hover {
         transform: translate(-20px, 20px);
         -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  cursor: url('yellow-diamond.png'), auto;
-}
-.tickets a{
-        cursor: url('yellow-diamond.png'), auto;    
+
 }
 
 #photo {
@@ -480,6 +437,21 @@ p3:hover{
         padding-left: 1rem;
         padding-right: .5rem; 
 }
+.card-title1{
+        font-family: 'Alfabet Bold';
+        font-size: 3rem;
+        line-height: 3.5rem;
+        padding-left: 1rem;
+        padding-right: .5rem;   
+}
+.card-title2{
+        font-family: 'Alfabet Bold';
+        font-size: 2.8rem;
+        line-height: 2.5rem;
+
+        padding-left: 1rem;
+        padding-right: .5rem;   
+}
 .venue{
         font-family: 'Alfabet Bold Italic';
         font-size: 1.5rem;
@@ -505,7 +477,7 @@ p3:hover{
 .logo-container{
         background-color: black;
         justify-content: center;
-        cursor: url('orange-diamond.png'), auto;
+     
 }
 .partner-logos{
     justify-content: center;
@@ -529,7 +501,6 @@ p3:hover{
 }
 .footer{
         display: flex;
-        cursor: url('orange-diamond.png'), auto;
 }
 h2{
         font-family: 'Alfabet Black';
@@ -548,15 +519,14 @@ h3{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        height: 300px;
         margin: 1rem;
-        cursor: url('orange-diamond.png'), auto;
+
 }
-.icons a{
-        cursor: url('orange-diamond.png'), auto;
-}
-.icons img{
-        padding: 10px;
+
+#facebook{
+        width: 10rem;
+        padding-left: 1rem;
+
 }
         
 .icon-box {
@@ -564,8 +534,7 @@ h3{
             justify-content: space-between;
             flex-wrap: wrap;
             padding-top: 1rem;
-            padding-left: 20rem;
-            cursor: url('orange-diamond.png'), auto;
+            padding-left: 8rem;
     
             img {
                 width: 4em;
@@ -601,4 +570,8 @@ h3{
 .another-thing:hover{
         background-color: rgb(255, 140, 7);
         color: black;
+}
+#silly-guy{
+        padding-top: 0;
+        padding-bottom: 3rem;
 }
